@@ -7,6 +7,8 @@ node_modules/
 .env
 .env.local
 .env.*.local
+.env.development
+.env.production
 
 # Build outputs
 dist/
@@ -34,6 +36,16 @@ Thumbs.db
 
 # Prisma
 prisma/migrations/
+prisma/generated/
+
+# Coverage and test reports
+coverage/
+*.lcov
+test-results/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
 
 # Claude AI Assistant files
 CLAUDE.md
